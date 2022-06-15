@@ -2,7 +2,7 @@
   "name": "ckeditor5-custom-build-mathtype-imageresize",
   "author": "mkt",
   "description": "A custom CKEditor 5 build with Mathtype and imageresize plugin.",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "license": "SEE LICENSE IN LICENSE.md",
   "main": "./build/ckeditor.js",
   "devDependencies": {
@@ -40,6 +40,24 @@
     "webpack": "^5.67.0",
     "webpack-cli": "^4.9.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahesh-trapasiya/ckeditor5-custom-build-mathtype-imageresize"
+  },
+  "homepage": "https://github.com/mahesh-trapasiya/ckeditor5-custom-build-mathtype-imageresize",
+  "keywords": [
+    "ckeditor-react",
+    "ckeditor-next",
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "ckeditor5-feature",
+    "ckeditor5-plugin",
+    "ckeditor5-react",
+    "ckeditor5-mathtype",
+    "ckeditor5-imageresize",
+    "ckeditor5-drag-drop"
+  ],
   "scripts": {
     "build": "webpack --mode production",
     "start": "npx http-server -o ./sample -s -c-1"
